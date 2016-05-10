@@ -1,0 +1,486 @@
+@font-face {
+    font-family: LatoLRegular; /* Имя шрифта */
+    src: url(../font/LatoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: LatoLight; /* Имя шрифта */
+    src: url(../font/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: VollkornRegular; /* Имя шрифта */
+    src: url(../font/Vollkorn-Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: MinionPro; /* Имя шрифта */
+    src: url(../font/MinionPro.otf); /* Путь к файлу со шрифтом */
+}
+body{
+    background: #f8f8fa;
+    color: #1d1d1f;
+}
+.nameBlock{
+    font-family: MinionPro;
+    font-size: 36px;
+    margin-left: 3px;
+    margin-top: 54px;
+}
+A {
+    text-decoration: none;
+}
+A:visited {
+    color: #1d1d1f; /* Цвет посещенных ссылок */
+}
+A:active {
+    color: #626263; /* Цвет активных ссылок */
+}
+a:hover{
+    color: #767678;
+}
+/*-----------------------------------------HEAD--------------------------------------*/
+.head{margin-bottom: 38px}
+.logo{
+    font-family: VollkornRegular;
+    font-size: 22px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.nav{
+    width: 600px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 148px;
+    margin-top: 2px;
+}
+.navItem{
+    font-family: LatoLRegular;
+    font-size: 16px;
+    float: left;
+    margin-left: 48px;
+}
+.navItem:hover{
+    cursor: pointer;
+    color: #767678;
+}
+.user{
+    float: right;
+}
+.user p{
+    font-family: LatoLRegular;
+    font-size: 16px;
+    float: left;
+    margin-right: 18px;
+    margin-top: 9px;
+}
+.user p:hover{
+    cursor: pointer;
+    color: #767678;
+}
+.userLogo{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-image: url("../img/js.jpg");
+    float: left;
+    margin-right: 3px;
+}
+.user img{
+    cursor: pointer;
+    margin-top: 17px;
+    margin-left: 6px;
+}
+/*----------------------------------------BANNER-------------------------------------*/
+.bannerName{
+    font-family: VollkornRegular;
+    font-size: 42px;
+    position: absolute;
+    margin-top: 38px;
+}
+.inBlock{
+    background: #FFF;
+    height: 358px;
+    margin-left: 53px;
+    margin-right: 16px;
+    background: url("../img/f1.png");
+    padding: 146px 69px 120px 70px;
+}
+.bannerText{
+    width: 680px;
+    float: left;
+}
+.bannerButton{
+    width: 211px;
+    height: 51px;
+    margin-top: 6px;
+    border: 1px solid #000;
+    float: right;
+    font-family: LatoLRegular;
+    font-size: 16px;
+    padding: 15px 0px 0px 5px;
+    text-align: center;
+}
+.bannerButton:hover{
+    background: #f8f8fa;
+    color: #767678;
+    cursor: pointer;
+}
+/*------------------------------------TRANDING-POEMS---------------------------------*/
+.tranding{
+    margin-top: 51px;
+}
+.trandingName{
+    font-family: VollkornRegular;
+    margin-top: 52px;
+    margin-left: 2px;
+}
+.inBlockTranding{
+    margin: 43px 16px 0 53px;
+    padding: 0;
+    overflow: hidden;
+}
+.miniBlock{
+    word-spacing: -1.2px;
+    width: 350px;
+    background: #FFFFFF;
+    float: left;
+    padding: 33px 30px 22px 39px;
+    font-family: VollkornRegular;
+    font-size: 18px;
+}
+.miniBlockName p{
+    margin-top: 1px;
+    margin-bottom: 17px;
+    line-height: 18px;
+}
+.miniBlockName:hover{
+    color:#767678;
+    cursor: pointer;
+}
+.miniBlock2{
+    margin: 0 50px 0 50px;
+}
+.miniBlock img{
+    margin-left: 2px;
+}
+.text{
+    word-spacing: -1.2px;
+    margin: 19px 0 0 2px;
+    font-family: LatoLight;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 83px;
+}
+.text p{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.like{
+    margin-top: 26px;
+}
+.like img{
+    float: left;
+    margin: 0 9px 0 50px;
+    cursor: pointer;
+}
+.like img:first-child{
+    margin-left: 2px;
+}
+.like p{
+    font-family: LatoLRegular;
+    font-size: 14px;
+    float: left;
+    margin: 0;
+}
+.like p:hover{
+    color: #767678;
+    cursor: pointer;
+}
+.bord{
+    border-bottom: 1px solid #626263;
+    width: 39px;
+    margin-top:64px;
+}
+.author{}
+.author img{
+    float: left;
+    margin: 20px 8px 0 2px;
+}
+.author p{
+    margin-top: 19px;
+    float: left;
+    font-style: italic;
+    font-size: 14px;
+    color: #818183;
+}
+.author p:last-child{
+    color: #1d1d1f;
+}
+.author p:last-child:hover{
+    color: #767678;
+    cursor: pointer;
+}
+/*----------------------------------------CLASSICS-----------------------------------*/
+.b1{
+    padding: 33px 50px 38px 50px;
+    margin-bottom: 13px;
+}
+.photoClassic{
+    height: 104px;
+    width: 104px;
+    border-radius: 50%;
+    border: 2px solid #1d1d1f;
+    margin: 20px auto 16px auto;
+}
+#ph1{
+    background: url("../img/shakespeare.jpg");
+}
+#ph2{
+    background: url("../img/byron.jpg");
+}
+#ph3{
+    background: url("../img/blake.jpg");
+}
+.dateAndName{
+    font-size: 16px;
+    text-align: center;
+}
+.dateAndName p{
+    margin: 0 auto 0 auto;
+}
+.dateAndName p:last-child{
+    color: #818183;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.miniBlockName2{
+    word-spacing: 0.2px;
+    margin-top: 33px;
+    }
+.textClassic{
+    margin-top: 16px;
+    letter-spacing: -0.4px;
+    word-spacing: 0.1px;
+    overflow: hidden;
+    height: 185px;
+}
+.afterText{
+    border-bottom: 1px solid #767678;
+    width: auto;
+    margin-bottom: 0;
+}
+.afterText p{
+    font-family: VollkornRegular;
+    font-size: 15px;
+    font-style: italic;
+    margin: 48px auto 29px 0;
+}
+.afterText2 p{
+    margin-top: 25px;
+}
+.afterText p:hover{
+    color: #818183;
+    cursor: pointer;
+}
+.like2{
+  margin-top: 25px;
+}
+.like2 img{
+    margin-left: 78px;
+}
+.like img:first-child{
+    margin-left: 1px;
+}
+/*----------------------------------------AUTHOR-------------------------------------*/
+.authorsItem{
+    height: 57px;
+    margin-top: 57px;
+}
+.authorsItem:last-child{
+    margin-top: 43px;
+    margin-bottom: 25px;
+}
+.authorOf{
+    margin: 0 0 0 39px;
+    float: left;
+}
+.authorOf:first-child{
+    margin-left: 56px;
+}
+.photoAuthor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    background: url("../img/696.jpg");
+    margin-right: 18px;
+}
+.photoAuthor:hover{
+    cursor: pointer;
+}
+.nameAuthor{
+    font-family: VollkornRegular;
+    font-size: 18px;
+    height: 50px;
+    width: 260px;
+    padding: 6px 0 0 2px;
+}
+.nameAuthor p:first-child:hover{
+    cursor: pointer;
+    color: #8d8c8c;
+}
+.nameAuthor p{
+    margin: 0px auto 0 auto;
+}
+.nameAuthor p:last-child{
+    margin: 2px auto 0 auto;
+    font-size: 13px;
+    font-style: italic;
+    color: #818183;
+}
+/*-------------------------------------RECOMENDED-----------------------------------*/
+.inBlockRecommended{
+    padding: 0;
+    overflow: hidden;
+    margin: 38px 16px 45px 53px;
+}
+.img2{
+    height: 131px;
+    width: 270px;
+    margin-left: 2px;
+    background: url("../img/2.png");
+}
+.text2{
+    margin-top: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 205px;
+}
+.text2 p:nth-child(5){
+    margin-top: 15px;
+}
+.text2 P:last-child{
+    margin-bottom: 47px;
+}
+.bord2{
+    margin-top: 84px;
+}
+.more{
+    width: 351px;
+    margin: 5px auto 0 auto;
+}
+.bord3{
+    width: 114px;
+    border-top: 1px solid #767678;
+    float: left;
+    margin-top: 9px;
+}
+.more img{
+    margin: 0 50px 0 50px;
+    float: left;
+    cursor: pointer;
+}
+.more img:hover{
+    border-radius: 50%;
+    background: #dee2f2;
+}
+/*----------------------------------------FOOT----------------------------------------*/
+.inBlockFooter{
+    margin: 19px 0 45px 53px;
+}
+.footBlock{
+    padding: 0 76px 0 62px;
+    width:388px;
+    float: left;
+    font-family: VollkornRegular;
+    font-size: 22px;
+}
+.footBlock:first-child{
+    padding: 0;
+}
+.footBlock:last-child{
+    padding-left: 75px;
+}
+.footerNav{
+    font-family: LatoLight;
+    float: left;
+    margin-top: 14px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1d1d1f;
+}
+.footerNav p{
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+.footerNav P:hover{
+    color: #818183;
+}
+.footerSocial{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 31px;
+    width: 36px;
+    float: right;
+}
+.footerSocial img{
+    margin-top: 13px;
+    cursor: pointer;
+}
+.footerSocial img:hover{
+    border-radius: 50%;
+    background: #dee2f2;
+}
+.button2{
+    font-family: LatoLRegular;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    background: #D6D6D6;
+}
+.button2:hover{
+    background: #c6c6c6;
+    cursor: pointer;
+}
+.find input{
+    height: 27px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    border: 0;
+    border-bottom: 1.5px solid #8d8c8c;
+    font-size: 12px;
+    background: #f8f8fa;
+    color: #303030;
+}
+.rec{
+    font-size: 14px;
+    font-family: LatoLight;
+    margin-top: 30px;
+}
+.list table{
+    margin-top: 16px;
+    border-spacing: 0 11px;
+    float: left;
+    font-style: italic;
+    font-size: 14px;
+    font-family: VollkornRegular;
+    cursor: pointer;
+}
+.list table td:last-child{
+    font-size: 12px;
+    color: #626263;
+}
+.list table:last-child{
+    float: right;
+}
+.list table td:hover{
+    color: #8d8c8c;
+}
