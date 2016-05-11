@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>8 main poetree</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet"  href="css/main.css">
+    <link rel="stylesheet"  href="css/styles.css">
 </head>
 <body>
 <div class="container">
     <div class="row head">
-        <div class="logo col-lg-2">PoeTree</div>
+        <div class="logo col-lg-2" onclick="location.href='Index.html'";>PoeTree</div>
         <div class="nav col-lg-7">
-            <div class="navItem"><a href="explore.html">Explore</a></div>
+            <div class="navItem">Explore</div>
             <div class="navItem">My Poems</div>
             <div class="navItem">Collections</div>
-            <div class="navItem"><img src="img/find.png" alt="IMG">Find</div>
+            <img src="img/find.png" alt="IMG">
+            <div class="navItem">Find</div>
         </div>
         <div class="user">
             <p>+ Add Poem</p>
@@ -24,18 +25,20 @@
     </div>
     <div class="row banner">
         <div class="nameBlock bannerName">All you need is Poetree</div>
+        <div class="close"></div>
         <div class="inBlock">
+
             <div class="bannerText">
                 Are we human because of unique traits and attributes not
                 shared with either animal or machine? The definition of "human"
                 is circular: we are human by virtue of the properties that make us human
                 (i.e., distinct from animal and machine)
             </div>
-            <div class="bannerButton">Sign Up for free --></div>
+            <div class="bannerButton"><p>Sign Up for free</p><img id="arrow" src="img/arrows.png" ></div>
         </div>
     </div>
     <div class="row tranding">
-        <div class="nameBlock trandingName">Tranding Poems</div>
+        <div class="nameBlock trandingName">Tranding Poems<div class="how"><p id="lightColor">How to</p> get here?</div></div>
         <div class="inBlockTranding">
             <div class="miniBlock">
                 <div class="miniBlockName">What One Says To The Poet <p>On The Subject</p></div>
@@ -57,7 +60,7 @@
                 <div class="bord"></div>
                 <div class="author">
                     <img src="img/coins.png">
-                    <p>by</p>
+                    <p>by &nbsp</p>
                     <p>Arthur Rimbaud</p>
                 </div>
             </div>
@@ -81,7 +84,7 @@
                 <div class="bord"></div>
                 <div class="author">
                     <img src="img/coins.png">
-                    <p>by</p>
+                    <p>by &nbsp</p>
                     <p>Arthur Rimbaud</p>
                 </div>
             </div>
@@ -105,14 +108,14 @@
                 <div class="bord"></div>
                 <div class="author">
                     <img src="img/coins.png">
-                    <p>by</p>
+                    <p>by &nbsp</p>
                     <p>Arthur Rimbaud</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="row classics">
-        <div class="nameBlock">Classics of the week</div>
+        <div class="nameBlock">Classics of the week<p>See all classics<img id="arrow" src="img/arrow-39526_640.png" ></p></div>
         <div class="inBlockTranding">
             <div class="miniBlock b1">
                 <div class="photoClassic" id="ph1"></div>
@@ -198,7 +201,7 @@
         </div>
     </div>
     <div class="row authors">
-        <div class="nameBlock">Authors of the month</div>
+        <div class="nameBlock">Authors of the month<p>See all authors<img id="arrow" src="img/arrow-39526_640.png" ></p></div>
         <div class="authorsItem">
             <div class="authorOf">
                 <div class="photoAuthor"></div>
@@ -262,7 +265,7 @@
 
     </div>
     <div class="row recommended">
-        <div class="nameBlock"><p>Recommended poems</p></div>
+        <div class="nameBlock">Recommended poems</div>
         <div class="inBlockRecommended ">
             <div class="miniBlock">
                 <div class="miniBlockName">What One Says To The Poet <p>On The Subject</p></div>
@@ -319,7 +322,7 @@
                 </div>
             </div>
             <div class="miniBlock">
-                <div class="miniBlockName">What One Says To The Poet <p>On The Subject</p></div>
+                <div class="miniBlockName miniBlockName3">What One Says To The Poet <p>On The Subject</p></div>
                 <div class="img2"></div>
                 <div class="text">
                     Those unique feelings in deep secret
@@ -462,7 +465,7 @@
                         <tr><td>Heroes</td><td>265</td></tr>
                         <tr><td>Ethnik</td><td>40</td></tr>
                         <tr><td>Book</td><td>134</td></tr>
-                        <tr><td>See all tags</td><td><img src="img/arrows.png"></td></tr>
+                        <tr onclick="location.href='tags-list.html'";><td>See all tags</td><td><img src="img/arrow-39526_640.png"></td></tr>
                     </table>
                 </div>
             </div>

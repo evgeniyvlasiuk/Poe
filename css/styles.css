@@ -11,8 +11,12 @@
     src: url(../font/Vollkorn-Regular.otf); /* Путь к файлу со шрифтом */
 }
 @font-face {
+    font-family: VollkornItalic; /* Имя шрифта */
+    src: url(../font/Vollkorn-Italic.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
     font-family: MinionPro; /* Имя шрифта */
-    src: url(../font/MinionPro.otf); /* Путь к файлу со шрифтом */
+    src: url(../font/MinionPro-Regular.otf); /* Путь к файлу со шрифтом */
 }
 body{
     background: #f8f8fa;
@@ -21,20 +25,15 @@ body{
 .nameBlock{
     font-family: MinionPro;
     font-size: 36px;
-    margin-left: 3px;
-    margin-top: 54px;
+    margin-left: 5px;
+    margin-top: 56px;
 }
-A {
-    text-decoration: none;
-}
-A:visited {
-    color: #1d1d1f; /* Цвет посещенных ссылок */
-}
-A:active {
-    color: #626263; /* Цвет активных ссылок */
-}
-a:hover{
-    color: #767678;
+.nameBlock p{
+    float: right;
+    font-size: 23px;
+    color: #b3b3b3;
+    margin-right: 13px;
+    margin-top: 12px;
 }
 /*-----------------------------------------HEAD--------------------------------------*/
 .head{margin-bottom: 38px}
@@ -50,19 +49,28 @@ a:hover{
     width: 600px;
     height: 33px;
     line-height: 33px;
-    margin-left: 148px;
+    margin-left: 151px;
     margin-top: 2px;
+}
+.nav img{
+    float: left;
+    margin-top: 9px;
+    margin-left: 45px;
 }
 .navItem{
     font-family: LatoLRegular;
     font-size: 16px;
     float: left;
-    margin-left: 48px;
+    margin-left: 47px;
+}
+.navItem:last-child{
+    margin-left: 9px;
 }
 .navItem:hover{
     cursor: pointer;
-    color: #767678;
+    color: #b3b3b3;
 }
+
 .user{
     float: right;
 }
@@ -75,7 +83,7 @@ a:hover{
 }
 .user p:hover{
     cursor: pointer;
-    color: #767678;
+    color: #b3b3b3;
 }
 .userLogo{
     height: 36px;
@@ -95,7 +103,16 @@ a:hover{
     font-family: VollkornRegular;
     font-size: 42px;
     position: absolute;
-    margin-top: 38px;
+    margin-top: 39px;
+}
+.close{
+    height: 16px;
+    width: 16px;
+    position: relative;
+    background: url("../img/w128h128139396832524.png");
+    float: right;
+    margin-top: 18px;
+    margin-right: 31px;
 }
 .inBlock{
     background: #FFF;
@@ -103,22 +120,35 @@ a:hover{
     margin-left: 53px;
     margin-right: 16px;
     background: url("../img/f1.png");
-    padding: 146px 69px 120px 70px;
+    padding: 143px 69px 120px 70px;
 }
 .bannerText{
     width: 680px;
     float: left;
+    font-family: LatoLight;
+    font-size: 18px;
+    line-height: 25px;
 }
 .bannerButton{
     width: 211px;
     height: 51px;
-    margin-top: 6px;
+    margin-top: 9px;
     border: 1px solid #000;
     float: right;
     font-family: LatoLRegular;
     font-size: 16px;
-    padding: 15px 0px 0px 5px;
+    padding: 15px 39px 0px 40px;
     text-align: center;
+}
+.bannerButton p{
+    float: left;
+    margin-top: 0;
+}
+#arrow{
+    margin-top: 3px;
+    margin-left: 2px;
+    height: 16px;
+    width: 16px;
 }
 .bannerButton:hover{
     background: #f8f8fa;
@@ -131,8 +161,28 @@ a:hover{
 }
 .trandingName{
     font-family: VollkornRegular;
-    margin-top: 52px;
-    margin-left: 2px;
+    margin-top: 51px;
+    margin-left: 3px;
+    word-spacing: 1px;
+}
+.how{
+    position: relative;
+    margin-right: 13px;
+    margin-top: 22px;
+    word-spacing: -1.3px;
+    float: right;
+    font-size: 14px;
+    font-family: VollkornItalic;
+}
+.how p{
+    float: left;
+}
+#lightColor{
+    font-size: 14px;
+    font-family: VollkornItalic;
+    color: #b3b3b3;
+    margin-top:0;
+    margin-right: 3px;
 }
 .inBlockTranding{
     margin: 43px 16px 0 53px;
@@ -148,6 +198,16 @@ a:hover{
     font-family: VollkornRegular;
     font-size: 18px;
 }
+.miniBlockName3 p:last-child{
+    margin-bottom: 0px;
+}
+.miniBlockName{
+    margin-left: 2px;
+    margin-bottom: 12px;
+    letter-spacing: -0.2px;
+    word-spacing: -0.5px;
+}
+
 .miniBlockName p{
     margin-top: 1px;
     margin-bottom: 17px;
@@ -161,7 +221,7 @@ a:hover{
     margin: 0 50px 0 50px;
 }
 .miniBlock img{
-    margin-left: 2px;
+    margin-left: 3px;
 }
 .text{
     word-spacing: -1.2px;
@@ -171,7 +231,7 @@ a:hover{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    height: 83px;
+    height: 86px;
 }
 .text p{
     margin-top: 6px;
@@ -182,11 +242,11 @@ a:hover{
 }
 .like img{
     float: left;
-    margin: 0 9px 0 50px;
+    margin: 0 9px 0 49px;
     cursor: pointer;
 }
 .like img:first-child{
-    margin-left: 2px;
+    margin-left: 4px;
 }
 .like p{
     font-family: LatoLRegular;
@@ -203,10 +263,10 @@ a:hover{
     width: 39px;
     margin-top:64px;
 }
-.author{}
+
 .author img{
     float: left;
-    margin: 20px 8px 0 2px;
+    margin: 20px 8px 0 4px;
 }
 .author p{
     margin-top: 19px;
@@ -214,6 +274,8 @@ a:hover{
     font-style: italic;
     font-size: 14px;
     color: #818183;
+    word-spacing: -2px;
+    letter-spacing: -0.5px;
 }
 .author p:last-child{
     color: #1d1d1f;
@@ -224,7 +286,7 @@ a:hover{
 }
 /*----------------------------------------CLASSICS-----------------------------------*/
 .b1{
-    padding: 33px 50px 38px 50px;
+    padding: 33px 50px 38px 54px;
     margin-bottom: 13px;
 }
 .photoClassic{
@@ -276,10 +338,10 @@ a:hover{
     font-family: VollkornRegular;
     font-size: 15px;
     font-style: italic;
-    margin: 48px auto 29px 0;
+    margin: 39px auto 29px 0;
 }
 .afterText2 p{
-    margin-top: 25px;
+    margin-top: 16px;
 }
 .afterText p:hover{
     color: #818183;
@@ -291,9 +353,6 @@ a:hover{
 .like2 img{
     margin-left: 78px;
 }
-.like img:first-child{
-    margin-left: 1px;
-}
 /*----------------------------------------AUTHOR-------------------------------------*/
 .authorsItem{
     height: 57px;
@@ -301,7 +360,7 @@ a:hover{
 }
 .authorsItem:last-child{
     margin-top: 43px;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 .authorOf{
     margin: 0 0 0 39px;
@@ -345,7 +404,7 @@ a:hover{
 .inBlockRecommended{
     padding: 0;
     overflow: hidden;
-    margin: 38px 16px 45px 53px;
+    margin: 38px 16px 50px 53px;
 }
 .img2{
     height: 131px;
@@ -359,6 +418,7 @@ a:hover{
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 205px;
+    margin-bottom: 45px;
 }
 .text2 p:nth-child(5){
     margin-top: 15px;
@@ -371,7 +431,7 @@ a:hover{
 }
 .more{
     width: 351px;
-    margin: 5px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 .bord3{
     width: 114px;
@@ -390,7 +450,7 @@ a:hover{
 }
 /*----------------------------------------FOOT----------------------------------------*/
 .inBlockFooter{
-    margin: 19px 0 45px 53px;
+    margin: 12px 0 45px 53px;
 }
 .footBlock{
     padding: 0 76px 0 62px;
@@ -461,7 +521,7 @@ a:hover{
     color: #303030;
 }
 .rec{
-    font-size: 14px;
+    font-size: 13px;
     font-family: LatoLight;
     margin-top: 30px;
 }
@@ -483,4 +543,18 @@ a:hover{
 }
 .list table td:hover{
     color: #8d8c8c;
+}
+/*---------------------------------------TAGS-LIST-------------------------------------*/
+.tagsColumn{
+    width: 290px;
+    height: 400px;
+    border: 1px solid #333;
+    float: left;
+}
+.tagsColumn:last-child{
+    background: #FFFFFF;
+    background-position: 30% 45%;
+}
+.inBlockTags{
+    margin-left: 30px;
 }
