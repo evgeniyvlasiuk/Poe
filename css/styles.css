@@ -240,23 +240,22 @@ body{
 .like{
     margin-top: 26px;
 }
-.like img{
+.like figure{
     float: left;
-    margin: 0 9px 0 49px;
-    cursor: pointer;
+    padding: 0;
+    margin: 0 0 0 49px;
 }
-.like img:first-child{
-    margin-left: 4px;
+.like figure:first-child{
+    margin-left: 0;
 }
-.like p{
-    font-family: LatoLRegular;
+.like figcaption{
     font-size: 14px;
     float: left;
-    margin: 0;
+    font-family: LatoLRegular;
 }
-.like p:hover{
-    color: #767678;
-    cursor: pointer;
+.like img{
+    float: left;
+    margin-right: 7px;
 }
 .bord{
     border-bottom: 1px solid #626263;
@@ -350,8 +349,8 @@ body{
 .like2{
   margin-top: 25px;
 }
-.like2 img{
-    margin-left: 78px;
+.like2 figure{
+    margin-left: 72px;
 }
 /*----------------------------------------AUTHOR-------------------------------------*/
 .authorsItem{
