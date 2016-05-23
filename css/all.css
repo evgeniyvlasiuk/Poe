@@ -1,0 +1,745 @@
+@font-face {
+    font-family: LatoLRegular; /* Имя шрифта */
+    src: url(../font/LatoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: LatoLight; /* Имя шрифта */
+    src: url(../font/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: VollkornRegular; /* Имя шрифта */
+    src: url(../font/Vollkorn-Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: VollkornItalic; /* Имя шрифта */
+    src: url(../font/Vollkorn-Italic.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: MinionPro; /* Имя шрифта */
+    src: url(../font/MinionPro-Regular.otf); /* Путь к файлу со шрифтом */
+}
+body{
+    background: #f8f8fa;
+    color: #1d1d1f;
+}
+section {
+    width: 350px;
+    background: #FFFFFF;
+    float: left;
+    padding: 34px 39px 22px 39px;
+    font-size: 18px;
+}
+section:nth-child(2), section:nth-child(5), section:nth-child(8){
+    margin: 0 50px 0 50px;
+}
+.active{
+    color: #767678;
+}
+.blockName{
+    font-family: MinionPro;
+    font-size: 36px;
+}
+.inBlock{
+    margin: 42px auto 30px 52px;
+    overflow: hidden;
+}
+.inBlockName{
+    margin-bottom: 12px;
+    letter-spacing: -0.2px;
+    word-spacing: -0.5px;
+    font-family: VollkornRegular;
+    font-size: 18px;
+}
+.inBlockName:hover{
+    cursor: pointer;
+    color: #767678;
+}
+.inBlockName p{
+    margin-top: 1px;
+    margin-bottom: 17px;
+    line-height: 18px;
+}
+.text{
+    word-spacing: -1.2px;
+    margin: 19px 0 0 2px;
+    font-family: LatoLight;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 86px;
+}
+.text p{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.like{
+    overflow: hidden;
+    margin-top: 26px;
+    margin-left: 2px;
+}
+.like figure{
+    float: left;
+    padding: 0;
+    margin: 0 0 0 51px;
+}
+.like figure:first-child{
+    margin-left: 0;
+}
+.like figcaption{
+    font-size: 14px;
+    float: left;
+    font-family: LatoLRegular;
+}
+.like img{
+    float: left;
+    margin-right: 7px;
+}
+.bord{
+    border-bottom: 1px solid #626263;
+    width: 39px;
+    margin-top: 20px;
+}
+.author img{
+    float: left;
+    margin: 20px 8px 0 2px;
+}
+.author p{
+    margin-top: 19px;
+    float: left;
+    font-style: italic;
+    font-size: 14px;
+    color: #818183;
+    word-spacing: -2px;
+    letter-spacing: -0.5px;
+}
+/*______________________________________header________________________________*/
+.logo{
+    cursor: pointer;
+    font-size: 22px;
+    font-family: VollkornRegular;
+    float: left;
+    margin-top: 2px;
+}
+.header{
+    height: 50px;
+}
+.nav{
+    width: 600px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 279px;
+    margin-top: 2px;
+    float: left;
+}
+.nav img{
+    float: left;
+    margin-top: 9px;
+    margin-left: 45px;
+}
+.navItem{
+    font-family: LatoLRegular;
+    font-size: 16px;
+    float: left;
+    margin-left: 47px;
+}
+.navItem:last-child{
+    margin-left: 9px;
+}
+.navItem:hover{
+    cursor: pointer;
+    color: #b3b3b3;
+}
+.active{
+    color: #b3b3b3;
+}
+.user{
+    float: right;
+}
+.user span{
+    font-family: LatoLRegular;
+    font-size: 16px;
+    float: left;
+    margin-right: 18px;
+    margin-top: 9px;
+}
+.user span:hover{
+    cursor: pointer;
+    color: #b3b3b3;
+}
+.userLogo{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-image: url("../img/js.jpg");
+    float: left;
+    margin-right: 3px;
+}
+.user img{
+    cursor: pointer;
+    margin-top: 17px;
+    margin-left: 6px;
+}
+
+/*--------------------------------banner----------------------------------*/
+.banner{
+    margin-top: 32px;
+}
+.banner > .blockName{
+    font-family: VollkornRegular;
+    font-size: 42px;
+    position: absolute;
+    margin-top: 39px;
+}
+.close{
+    height: 16px;
+    width: 16px;
+    background: url("../img/w128h128139396832524.png");
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: 18px;
+}
+.banner > .inBlock{
+    background: #FFF;
+    height: 358px;
+    background: url("../img/f1.png");
+    padding: 125px 69px 120px 67px;
+    margin: 0 15px 0 53px;
+}
+.banner > .inBlock p{
+    width: 680px;
+    float: left;
+    font-family: LatoLight;
+    font-size: 18px;
+    line-height: 25px;
+}
+.bannerButton{
+    width: 211px;
+    height: 51px;
+    margin-top: 27px;
+    border: 1px solid #000;
+    float: right;
+    font-family: LatoLRegular;
+    font-size: 16px;
+    padding: 15px 37px 11px 35px;
+    text-align: center;
+}
+#arrow{
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.bannerButton:hover{
+    background: #f8f8fa;
+    color: #767678;
+    cursor: pointer;
+}
+/*-----------------------------------tranding--------------------------------------*/
+.tranding{
+    margin-top: 51px;
+}
+.tranding > .blockName{
+    font-family: VollkornRegular;
+}
+.how{
+    position: relative;
+    margin-right: 13px;
+    margin-top: 22px;
+    word-spacing: -1.3px;
+    font-size: 14px;
+    font-family: VollkornItalic;
+    float: right;
+    cursor: pointer;
+}
+#lightColor{
+    font-size: 14px;
+    font-family: VollkornItalic;
+    color: #b3b3b3;
+    margin-top:0;
+    margin-right: 3px;
+}
+#lightColor:hover{
+    color: #1d1d1f;
+}
+/*-----------------------------------Classics----------------------------------------*/
+.classics{
+    margin-top: 57px;
+}
+.seeAll{
+    float: right;
+    font-size: 23px;
+    margin: 12px 31px 0 20px;
+    color: #d3d3d3;
+}
+.seeAll span{
+    margin-right: 6px;
+}
+.seeAll:hover{
+    cursor: pointer;
+    color: #1d1d1f;
+}
+.photoClassic{
+    height: 104px;
+    width: 104px;
+    border-radius: 50%;
+    border: 2px solid #1d1d1f;
+    margin: 20px auto 16px auto;
+}
+#ph1{
+    background: url("../img/shakespeare.jpg");
+}
+#ph2{
+    background: url("../img/byron.jpg");
+}
+#ph3{
+    background: url("../img/blake.jpg");
+}
+.dateAndName{
+    font-size: 16px;
+    text-align: center;
+}
+.dateAndName p{
+    margin: 0 auto 0 auto;
+}
+.dateAndName p:last-child{
+    color: #818183;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.afterText{
+    border-bottom: 1px solid #767678;
+    width: auto;
+    margin-bottom: 0;
+}
+.afterText p{
+    font-family: VollkornRegular;
+    font-size: 15px;
+    font-style: italic;
+    margin: 24px auto 29px 0;
+}
+.afterText p:hover{
+    color: #818183;
+    cursor: pointer;
+}
+.classics section{
+    padding: 34px 49px 40px 49px;
+}
+.classics section > .text{
+    margin-top: 34px;
+    height: 240px;
+}
+.classics section > .text > .inBlockName p{
+    margin-top: 1px;
+    margin-bottom: 21px;
+    line-height: 18px;
+}
+.classics section > .text > .inBlockName{
+    margin-bottom: 17px;
+}
+.classics section > .like figure{
+    margin-left: 79px;
+}
+.classics section > .like figure:first-child{
+    margin-left: 0px;
+}
+/*--------------------------------author---------------------------------------------*/
+.authors{
+    margin-top: 65px;
+}
+.authors > .inBlock{
+    margin: 42px auto 30px 0;
+}
+.authorsItem{
+    height: 57px;
+    margin-top: 15px;
+}
+.authorsItem:last-child{
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+.authorOf{
+    margin: 0 0 0 39px;
+    float: left;
+}
+.authorOf:first-child{
+    margin-left: 54px;
+}
+.photoAuthor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    background: url("../img/696.jpg");
+    margin-right: 17px;
+}
+.photoAuthor:hover{
+    cursor: pointer;
+}
+.nameAuthor{
+    font-family: VollkornRegular;
+    font-size: 18px;
+    height: 50px;
+    width: 260px;
+    padding: 6px 0 0 0;
+}
+.nameAuthor p:first-child:hover{
+    cursor: pointer;
+    color: #8d8c8c;
+}
+.nameAuthor p{
+    margin: 0px auto 0 auto;
+}
+.nameAuthor p:last-child{
+    margin: 2px auto 0 auto;
+    font-size: 13px;
+    font-style: italic;
+    color: #818183;
+}
+/*---------------------------------recomended---------------------------------------*/
+.recomended{
+    margin-top: 57px;
+}
+.recomended > .inBlock{
+    margin-top: 38px;
+}
+.recomended section{
+    padding: 33px 39px 24px 39px;
+    margin-bottom: 49px;
+}
+.text2{
+    height: 224px;
+    margin-top: 25px;
+}
+.text2 p:nth-child(5){
+    margin-top: 15px;
+}
+.withI{
+    height: 82px;
+}
+.more{
+    width: 351px;
+    margin: 0 auto 0 auto;
+}
+.bord3{
+    width: 114px;
+    border-top: 1px solid #767678;
+    float: left;
+    margin-top: 9px;
+}
+.more img{
+    margin: 0 50px 0 42px;
+    float: left;
+    cursor: pointer;
+}
+.more img:hover{
+    border-radius: 50%;
+    background: #dee2f2;
+}
+.img2{
+    height: 130px;
+    width: 270px;
+    background: url("../img/2.png");
+}
+.withImage p{
+    margin-bottom: 12px;
+}
+
+/*------------------------------------footer-----------------------------------------*/
+.footer section{
+    background: none;
+    padding: 22px 48px 10px 48px;
+}
+.footer section:first-child{
+    padding: 22px 0 10px 0;
+}
+.footer section > .inBlockName{
+    font-size: 22px;
+}
+.footer section > .inBlockName:first-child{
+    margin-bottom: 8px;
+}
+.footer  nav{
+    text-decoration: none;
+    color: #767678;
+    font-family: LatoLight;
+    float: left;
+}
+.footer nav li{
+    list-style: none;
+    margin: 12px auto 0 9px;
+    font-size: 16px;
+}
+.footer nav li:hover{
+    cursor: pointer;
+    color: #1d1d1f;
+}
+.footerSocial{
+    margin: 13px 0 0 10px;
+    width: 30px;
+    float: right;
+}
+.footerSocial img{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.footerSocial img:hover{
+    border-radius: 50%;
+    background: #dee2f2;
+}
+.button2{
+    font-family: LatoLRegular;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    background: #D6D6D6;
+}
+.button2:hover{
+    background: #c6c6c6;
+    cursor: pointer;
+}
+.find input{
+    height: 27px;
+    width: 100%;
+    margin-bottom: 22px;
+    margin-top: 16px;
+    border: 0;
+    border-bottom: 1.5px solid #8d8c8c;
+    font-size: 12px;
+    background: #f8f8fa;
+    color: #303030;
+}
+.rec{
+    font-size: 13px;
+    font-family: LatoLight;
+    margin-top: 30px;
+}
+.tags ul{
+    font-size: 14px;
+    font-family: VollkornItalic;
+    padding-left: 0;
+    float: left;
+    margin-top: 19px;
+    margin-left: 2px;
+}
+.tags ul:last-child{
+    margin-left: 67px;
+}
+.tags li{
+    list-style: none;
+    margin-bottom: 13px;
+}
+.tags span{
+    color: #767678;
+    margin-left: 3px;
+}
+.tags li:hover{
+    cursor: pointer;
+    color: #767678;
+}
+/*-------------------------------------------------------------------------------------------*/
+/*----------------------------------------Recom----------------------------------------------*/
+.page2{
+    margin-top: 42px;
+}
+.page2 > .blockName{
+    margin: 5px 5px 5px 27px;
+}
+.page2 > .inBlock{
+    margin-left: 29px;
+    margin-top: 45px;
+}
+.page2 section > .inBlockName{
+    font-size: 16px;
+}
+.page2 section{
+    padding: 37px 38px 22px 38px;
+}
+.nav2 li{
+    word-spacing: 1px;
+    color: #767678;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: LatoLRegular;
+    margin-left: 3px;
+}
+.nav2 li:hover{
+    cursor: pointer;
+    color: #1d1d1f;
+}
+.nav2 ul{
+    margin: 0;
+}
+.nav2{
+    float: right;
+    height: 50px;
+    padding: 0;
+    margin-right: 37px;
+}
+.nav2 img{
+    margin: 3px 9px 0 28px;
+}
+.page2 > .more figure{
+    width: 391px;
+}
+.more figure{
+    float: left;
+    font-size: 22px;
+    font-family: MinionPro;
+    margin: 0 36px 0px 36px;
+    padding: 0;
+}
+.more figure > span{
+    margin-left: 3px;
+    color: #767678;
+}
+/*---------------------------------------------------------------------------------*/
+/*------------------------------------collection----------------------------------*/
+.button3{
+    height: 42px;
+    border: 1px solid #111111;
+    margin: 17px auto 20px auto;
+    font-family: LatoLRegular;
+    text-align: center;
+    line-height: 42px;
+}
+.button3:hover{
+    background: #d8d8d8;
+    cursor: pointer;
+}
+.imgCreate{
+    background: url("../img/krug.png");
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 77px auto 18px auto;
+}
+.imgCreate:hover{
+    box-shadow:inset 0 0 5px rgba(0,0,0,0.5);
+}
+.kollections{
+    margin-top: 62px;
+}
+.kollections > .blockName{
+    margin-left: 26px;
+}
+.kollections > .inBlock{
+    margin: 45px auto 0 28px;
+}
+.kollections section > .inBlockName{
+    font-size: 22px;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+.kollections section{
+    padding: 24px 39px 20px 39px;
+    margin-bottom: 43px;
+    margin-top: 7px;
+}
+.kollections section:first-child{
+    padding: 24px 72px 102px 72px;
+}
+.kollections section > .like{
+    margin: 20px auto 22px 0;
+}
+.kollections section > .like figure:last-child{
+   margin-left: 21px;
+}
+.footerCol{
+    margin: 5px auto 20px 0px;
+}
+.footerCol > .inBlock{
+    margin: 0 auto 10px 27px;
+}
+.footerCol section, .footerCol section:first-child{
+    padding-top: 0;
+}
+/*----------------------------------------------------------------------------*/
+/*-----------------------------------innercollections-------------------------*/
+.banner2{
+    background: url("../img/innerbanner.png");
+    height: 350px;
+    margin: 27px 40px 10px 27px;
+    padding: 94px 277px 60px 277px;
+    color: #FFFFFF;
+    font-size: 42px;
+}
+.banner2 > .bannerName{
+    font-family: MinionPro;
+    font-size: 42px;
+}
+.bannerLike{
+    margin: 14px 0 0 126px;
+}
+.bannerLike > figure{
+    margin-left: 38px;
+}
+.bannerLike > figure > img{
+    margin-right: 9px;
+}
+.banner2Button{
+    height: 42px;
+    width: 175px;
+    background: #FFFFFF;
+    font-family: LatoLRegular;
+    color: #1d1d1f;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+    line-height: 42px;
+    margin: 65px auto 0 auto;
+}
+.banner2Button:hover{
+    background: #b3b3b3;
+}
+.nav3{
+    margin: 34px 41px 0 27px;
+}
+.nav3 li{
+    text-decoration: none;
+    display: inline-block;
+    font-style: italic;
+    font-family: LatoLRegular;
+    color: #767678;
+    font-size: 13px;
+}
+.nav3 ul{
+    padding: 0;
+    margin-bottom: 2px;
+}
+.nav3 li:last-child{
+    float: right;
+    font-style: normal;
+    margin-top: 4px;
+}
+.innerColl > .inBlock{
+    margin: 37px auto 0 27px;
+}
+.innerColl section{
+    margin-bottom: 50px;
+}
+.footBlock{
+    margin-top: 0;
+    margin-left: 27px;
+}
+.footBlock section{
+    padding-top: 4px;
+}
+.footBlock section:first-child{
+    padding-top: 4px;
+}
+.pen{
+    position: absolute;
+    margin: -44px 0 0 1px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+

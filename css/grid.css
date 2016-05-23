@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 .container{
-    padding: 34px 0 0 9px;
+    padding: 34px 0 0 12px;
     margin: auto;
+    width: 1228px;
 }
 .row:after{
     display: block;
@@ -19,6 +20,7 @@
     display: inline;
     position: relative;
 }
+/*
 @media  (min-width: 1200px) {
     .container { width: 1228px; }
     .col-lg-1  { width: 8.33333333%; }
@@ -46,6 +48,7 @@
     .offset-lg-11 {margin-left: 91.66666667%;}
     .offset-lg-12 {margin-left: 100%;}
 }
+/*
 @media only screen and (max-width: 1199px) {
     .container { width: 970px; }
     .col-md-1  { width: 8.33333333%; }

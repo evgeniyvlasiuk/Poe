@@ -1,0 +1,309 @@
+.poemImg{
+    background: url("../img/poemimg.png");
+    background-repeat: no-repeat;
+    width: 1100px;
+    margin: 29px auto 0 52px;
+    padding-top:230px;
+}
+.noImg{
+    background: none;
+    padding-top: 11px;
+}
+.poem{
+    background: #FFFFFF;
+    width: 800px;
+    margin: 0 auto 0 auto;
+    padding: 82px 10px 50px 100px;
+}
+.namePoem{
+    font-family: VollkornRegular;
+    font-size: 32px;
+}
+.poet img{
+    float: left;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+.poet{
+    height: 40px;
+    width: 200px;
+    margin-left: 0;
+    margin-bottom: 11px;
+}
+.poet figcaption{
+    vertical-align: bottom;
+    font-family: VollkornItalic;
+    line-height: 24px;
+    height: 30px;
+    font-size: 16px;
+
+}
+.poet span{
+    color: #767678;
+    margin-right: 3px;
+}
+.poem > .like{
+    margin: 42px 0 0 0;
+}
+.poem > .like figure{
+    margin-left: 30px;
+}
+.poem > .like figure:first-child{
+    margin-left: 0;
+}
+.textPoem{
+    white-space: pre-line;
+    font-family: "LatoLight";
+    font-size: 22px;
+    word-spacing: -2px;
+    line-height: 40px;
+    margin-top: -2px;
+}
+.afterPoem li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: VollkornItalic;
+    margin-left: 18px;
+}
+.afterPoem img{
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.afterPoem li:first-child{
+    margin-left: 0;
+}
+.afterPoem li:first-child:hover{
+    cursor: pointer;
+    color: #767678;
+}
+.afterPoem ul{
+    margin: 52px 0 10px 0;
+    padding: 0;
+}
+.afterPoem li > span{
+    color: #767678;
+}
+#heart{
+    float: left;
+    width: 87px;
+    height: 65px;
+    border-right: 1px solid #111111;
+    background: url("../img/heart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.likePoem{
+    overflow: hidden;
+    margin-top: 59px;
+}
+.button4{
+    width: 400px;
+    height: 67px;
+    margin-left: 0;
+    font-size: 26px;
+    font-family: VollkornRegular;
+    line-height: 61px;
+    float: left;
+}
+.add {
+    width: 200px;
+    height: 26px;
+    float: right;
+    margin-right: 43px;
+    margin-top: 37px;
+}
+.add:hover{
+    color: #767678;
+}
+.add span{
+    font-family: "LatoLight";
+}
+.add img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.afterPoemBlock{
+    margin-top: 1px;
+    padding: 27px 10px 12px 98px;
+}
+.afterPoemBlock span{
+    color: #767678;
+    margin-left: 3px;
+}
+.menu{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 28px;
+}
+.menu li{
+    font-family: LatoLRegular;
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #111111;
+    font-size: 13px;
+    padding: 9px 19px 1px 9px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background: #f5f5f5;
+}
+.menu li:first-child{
+    margin-left: 0;
+}
+.menu li > img{
+    vertical-align: middle;
+    margin-right: 18px;
+}
+#tagsPoem li{
+    border: none;
+    margin-left: 0;
+    padding: 0;
+}
+#tagsPoem ul{
+    padding: 0;
+    margin-left: 0;
+}
+#tagsPoem img{
+    margin-left: 3px;
+    margin-right: 14px;
+}
+#tagsPoem{
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+#tagsPoem li:hover{
+    background: none;
+    color: #767678;
+}
+.commentBlock{
+    background: none;
+    padding: 58px 10px 50px 100px;
+}
+.commentBlock > .blockName{
+    font-size: 31px;
+}
+.commentBlock > .blockName span{
+    color: #767678;
+    margin-left: 12px;
+}
+.comment{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.commentAuthor{
+    font-size: 16px;
+    font-family: LatoLRegular;
+}
+.commentAuthor span{
+    font-size: 12px;
+    color: #767678;
+}
+.commentAuthor img{
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.commentAuthor figure{
+    float: right;
+    margin-right: 83px;
+}
+.commentAuthor figure > img{
+    width: 15px;
+    height: 15px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 9px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.commentAuthor figcaption{
+    float: left;
+}
+.commentText{
+    width: 500px;
+    overflow: hidden;
+    margin-left: 66px;
+    font-size: 13px;
+    font-family: "LatoLight";
+    line-height: 22px;
+    color: #1d1d1f;
+}
+.commentText p{
+    color: #767678;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.commentText p:hover{
+    color: #1d1d1f;
+}
+.authorCom{
+    color: #1d1d1f;
+    font-size: 14px;
+    font-family: "LatoLight";
+    border-bottom: 1px solid #767678;
+    float: right;
+    width: 500px;
+    margin-right: 92px;
+    margin-top: 10px;
+    height: 26px;
+}
+.comPost p{
+    float: right;
+    font-size: 16px;
+    color: #1d1d1f;
+    font-family: LatoLRegular;
+    margin-top: 3px;
+}
+#firstCom{
+    margin-bottom: 69px;
+    margin-top: 28px;
+}
+.reply{
+    border-left: 3px solid #1d1d1f;
+    padding-left: 33px;
+    margin: 31px 0 93px 64px;
+}
+.moreReplies{
+    font-family: LatoLRegular;
+    font-size: 16px;
+    margin: 12px 0 0 67px;
+}
+.moreReplies img{
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.moreReplies:hover{
+    cursor: pointer;
+    color: #767678;
+}
+.border{
+    margin-top: 9px;
+    width: 200px;
+    border-bottom: 1px solid #1d1d1f;
+    float: left;
+}
+.showMore{
+    margin: 39px auto 108px auto;
+}
+.showMore span{
+    float: left;
+    margin-left: 11px;
+    margin-right: 8px;
+    font-family: LatoLRegular;
+}
+.showMore span:hover{
+    cursor: pointer;
+    color: #767678;
+}
+.showMore img{
+    vertical-align: middle;
+    float: left;
+    margin-right: 10px;
+    margin-top: 9px;
+}

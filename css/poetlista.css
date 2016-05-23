@@ -1,0 +1,60 @@
+.imgOfAuthor{
+    margin: 10px auto 10px auto;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+}
+.poetsList{
+    margin-top: 37px;
+}
+.poetsList > .blockName{
+    font-family: VollkornRegular;
+    margin: 20px 0 0 27px;
+}
+.poetsList > .inBlock{
+    margin: 6px auto 0 28px;
+}
+.poetsList section{
+    margin-top: 43px;
+    padding: 45px 39px 22px 39px;
+    margin-bottom: 7px;
+}
+.poetsList section > .inBlockName{
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+.poetsList section > .like{
+    margin-top: 29px;
+    margin-left: 41px;
+}
+.poetsList section > .like figure{
+    margin-left: 32px;
+}
+.poetsList > .more{
+    width: 348px;
+    margin: 43px auto 0 auto;
+}
+.miniButton{
+    width: 93px;
+    height: 42px;
+    background: #f8f8fa;
+    float: left;
+    margin: 29px auto 35px 10px;
+    padding: 11px 10px 5px 37px;
+}
+.miniButton:hover{
+    cursor: pointer;
+    background: #dfdfe1;
+}
+.firstButton{
+    margin-left: 39px;
+    padding-left: 38px;
+}
+.checkButton{
+    background: none;
+    border: 1px solid #1d1d1f;
+    padding: 6px 10px 5px 39px;
+}
+.infootBlock{
+    margin: 22px auto 30px 26px;
+}
