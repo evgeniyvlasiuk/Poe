@@ -1,0 +1,110 @@
+/*----------------------------------------------SETINGS-POEM--------------------------------------*/
+.settingsBlock{
+    margin-top: 30px;
+}
+#sidebar{
+    float: right;
+    font-family: LatoLRegular;
+    font-size: 13px;
+    margin: 47px 38px auto 0;
+}
+#sidebar li{
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+#sidebar li:last-child{
+    color: #767678;
+    cursor: pointer;
+}
+#sidebar li:last-child:hover{
+    color: #1d1d1f;
+}
+#sidebar li:first-child:hover{
+    color:#1d1d1f;
+}
+#sidebar li:hover{
+    color: #767678;
+    cursor: pointer;
+}
+#sidebar img{
+    float: left;
+    vertical-align: bottom;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+#sidebar span{
+    color: #767678;
+}
+#sidebar span:hover{
+    color: #1d1d1f;
+    cursor: pointer;
+}
+#plus{
+    font-size: 11px;
+}
+.firstColumn{
+    float: left;
+}
+.firstColumn figcaption{
+    font-family: LatoLRegular;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.firstColumn figure > img{
+    height: 38px;
+    width: 38px;
+    float: left;
+    margin-right: 19px;
+    border-radius: 50%;
+}
+.firstColumn figure > img:last-child:hover{
+    cursor: pointer;
+    box-shadow:inset 0 0 5px rgba(0,0,0,0.5);
+}
+.settings{
+    padding: 30px 97px 71px 61px;
+}
+.date{
+    margin-left: 37px;
+    margin-top: 45px;
+}
+.nameSpan{
+    font-family: LatoLRegular;
+    font-size: 16px;
+}
+.tag{
+    margin-left: 37px;
+    margin-top: 96px;
+}
+.tag p > input{
+    height: 25px;
+    width: 163px;
+    margin-bottom: 2px;
+    margin-top: 0;
+    border: 0;
+    border-bottom: 1.5px solid #8d8c8c;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #1d1d1f;
+}
+.tag li{
+    list-style: none;
+    font-size: 14px;
+    float: left;
+    margin-left: 20px;
+    font-family: LatoLRegular;
+    font-size: 13px;
+}
+.tag li:first-child{
+    margin-left: 0;
+}
+.tag li > img{
+    vertical-align: middle;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.tag ul{
+    margin-left: 0;
+    padding: 0;
+}

@@ -1,0 +1,71 @@
+.tagsList{
+    padding: 47px 14px 0 26px;
+    margin-bottom: 70px;
+}
+.tagsList > .row >.blockName{
+    font-size: 36px;
+    font-family: VollkornRegular;
+}
+.tagsList > .row > .blockName span{
+    color: #767678;
+    margin-left: 8px;
+}
+.tagsBlock{
+
+    float: left;
+}
+.tagsList li{
+    font-family: LatoLRegular;
+    font-size: 16px;
+    list-style: none;
+}
+li:hover{
+    color: #767678;
+    cursor: pointer;
+}
+.tagsBlock ul{
+    float: left;
+    margin-left: 173px;
+    padding: 0;
+    margin-top: 49px;
+}
+.tagsBlock ul:first-child{
+    margin-left: 0;
+}
+.tagsBlock li{
+    list-style: none;
+    margin-bottom: 25px;
+}
+.tagsBlock li > span{
+    color: #767678;
+    margin-left: 4px;
+}
+.popTagsBlock{
+    float: right;
+    width: 331px;
+}
+.popTags{
+    background: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 302px;
+    padding-top: 84px;
+    padding-bottom: 30px;
+}
+.popTags li{
+    margin-bottom: 11px;
+    margin-left: 10px;
+}
+.popTags li > span{
+    color: #767678;
+    margin-left: 4px;
+}
+.popTagsBlock p{
+    position: absolute;
+    font-family: MinionPro;
+    font-size: 23px;
+    margin: 45px 0 10px 2px;
+}
+.tagsFoot{
+    margin: 52px auto 30px 27px;
+}

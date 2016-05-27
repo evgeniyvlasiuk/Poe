@@ -5,14 +5,11 @@
     height: 95px;
 }
 .poetsList{
-    margin-top: 37px;
+    margin-top: 47px;
 }
-.poetsList > .blockName{
-    font-family: VollkornRegular;
-    margin: 20px 0 0 27px;
-}
+
 .poetsList > .inBlock{
-    margin: 6px auto 0 28px;
+    margin: 0 auto 0 28px;
 }
 .poetsList section{
     margin-top: 43px;

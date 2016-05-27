@@ -2,7 +2,7 @@
     background: url("../img/poemimg.png");
     background-repeat: no-repeat;
     width: 1100px;
-    margin: 29px auto 0 52px;
+    margin: 39px auto 0 52px;
     padding-top:230px;
 }
 .noImg{
@@ -58,8 +58,12 @@
     font-family: "LatoLight";
     font-size: 22px;
     word-spacing: -2px;
+
+}
+.textPoem p {
+    margin-top: 4px;
     line-height: 40px;
-    margin-top: -2px;
+    margin-bottom: 0;
 }
 .afterPoem li{
     text-decoration: none;
@@ -307,3 +311,164 @@
     margin-right: 10px;
     margin-top: 9px;
 }
+/*-----------------------------------------------------------------------------------------------*/
+#typeface{
+    font-size: 13px;
+    font-family: LatoLRegular;
+    color: #767678;
+    margin: 22px auto 0 0;
+}
+#typeface span{
+    color: #1d1d1f;
+    cursor: pointer0;
+}
+#typeface span:hover{
+    color: #767678;
+}
+#typeface figcaption{
+    float: left;
+}
+#typeface img{
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.poemAdd{
+    padding: 91px 97px 22px 97px;
+}
+#addPoemStep li{
+    font-family: LatoLRegular;
+    color: #767678;
+}
+#addPoemStep ul{
+    margin-top: 46px;
+}
+#addPoemStep img{
+    margin-left: 24px;
+}
+#addPoemStep ul > .active{
+    color: #1d1d1f;
+}
+#addPoemStep li:hover{
+    cursor: pointer;
+    color: #1d1d1f;
+}
+.addPoemBut{
+    width: 151px;
+    height: 51px;
+    margin: 45px auto 10px auto;
+    line-height: 50px;
+}
+.addPoemBut img{
+    vertical-align: middle;
+}
+#poemAddStepsNav{
+    background: none;
+    padding: 0px 97px 82px 97px;
+}
+.addBlock{
+    margin-top: 33px;
+}
+/*-----------------------------------------------------------------------------*/
+.viewPoem{
+    width: 350px;
+    margin: 65px auto 10px auto;
+}
+.newImg{
+    height: 162px;
+    width: 270px;
+    color: #FFFFFF;
+    background: #1d1d1f;
+    text-align: center;
+    font-family: LatoLRegular;
+    font-size: 16px;
+    line-height: 160px;
+    margin-bottom: 21px;
+}
+.newImg:hover{
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #1d1d1f;
+    border: 1px solid #1d1d1f;
+}
+.viewPoem span{
+    line-height: 30px;
+    font-family: LatoLRegular;
+    font-size: 16px;
+}
+.viewPoem section{
+    padding-bottom: 54px;
+}
+.viewPoem section > .text{
+    margin-top: 8px;
+}
+.but5{
+    margin: 24px auto 58px auto;
+}
+/*------------------------------------------------------------------------------------*/
+.pubPoemNav{
+    width: 617px;
+    margin: 90px auto 0 auto;
+}
+.poemImgPub{
+    margin-top: 24px;
+}
+.poemImgPub > .poem{
+    width: 600px;
+}
+.poemImgPub > .poem > #typeface{
+    margin-top: 7px;
+    font-size: 14;
+}
+.poemImgPub > .poem>.namePoem{
+    font-family: MinionPro;
+    margin-top: 41px;
+
+}
+.poemImgPub > .poem>.namePoem p {
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.poemImgPub > .poemAdd{
+    padding: 90px 67px 67px 99px;
+}
+#datePoem{
+    font-size: 16px;
+    font-family: VollkornItalic;
+    color: #767678;
+    margin-top: 0;
+    line-height: 4px;
+}
+.publishButton{
+    width: 325px;
+    height: 67px;
+    margin: 60px auto 120px auto;
+    font-family: MinionPro;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

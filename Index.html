@@ -6,6 +6,8 @@
     <link rel="stylesheet"  href="css/grid.css">
     <link rel="stylesheet"  href="css/main.css">
     <link rel="stylesheet"  href="css/all.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="modal.js"></script>
 </head>
 <body>
 <div class="container">
@@ -19,7 +21,7 @@
             <div class="navItem">Find</div>
         </div>
         <div class="user" >
-            <span>+ Add Poem</span>
+            <a href="addpoem.html"><span>+ Add Poem</span></a>
             <div class="userLogo"></div>
             <img src="img/icon.png" alt="IMG">
         </div>
@@ -484,7 +486,7 @@
                     <p>by<span>Arthur Rimbaud</span></p>
                 </div>
             </section>
-            <div class="more">
+            <div class="more" id="moreMain">
                 <div class="bord3"></div>
                 <img src="img/d.png" alt="more">
                 <div class="bord3"></div>
@@ -536,5 +538,10 @@
         </div>
     </div>
 </div>
+<div id="search">
+    <input id="serchValue" type="text" placeholder="search">
+    <img id="modal_close" src="img/find.png">
+</div>
+<div id="overlay"></div>
 </body>
 </html>
