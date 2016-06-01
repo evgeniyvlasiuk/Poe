@@ -75,7 +75,7 @@
 }
 .tag{
     margin-left: 37px;
-    margin-top: 96px;
+    margin-top: 51px;
 }
 .tag p > input{
     height: 25px;
@@ -90,7 +90,6 @@
 }
 .tag li{
     list-style: none;
-    font-size: 14px;
     float: left;
     margin-left: 20px;
     font-family: LatoLRegular;
@@ -107,4 +106,35 @@
 .tag ul{
     margin-left: 0;
     padding: 0;
+}
+.calendarSelect{
+    float: left;
+    border: 1px solid #ebebed;
+    height: 30px;
+    line-height: 30px;
+    width: 112px;
+    padding-left: 8px;
+}
+.calendarSelect img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.calendar span{
+    margin-left: 30px;
+    color: #767678;
+    font-size: 13px;
+    float: left;
+    line-height: 30px;
+    font-family: LatoLight;
+    margin-right: 11px;
+}
+.calendarSelect span{
+    color: #1d1d1f;
+    font-size: 14px;
+}
+.calendar span:first-child{
+    margin-left: 0;
+}
+.calendar{
+    margin-top: 15px;
 }

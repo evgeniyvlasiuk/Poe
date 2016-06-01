@@ -70,7 +70,110 @@ body{
     cursor:pointer;
     display:none;
 }
-
+/* -----------------------------------------------  LOGIN --------------------------------------------------  */
+#email, #socnetw, #registr{
+    display: none;
+}
+.logIn{
+    width: 500px;
+    background: #fff;
+    margin: auto;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    z-index: 5;
+}
+.inLogin{
+    padding: 50px;
+}
+.navLogin{
+    margin-bottom: 30px;
+}
+.navLogin span{
+    margin-right: 26px;
+    color: #767678;
+    font-family: VollkornRegular;
+    font-size: 24px;
+}
+.navLogin > #sellect{
+    color: #1d1d1f;
+}
+.navLogin span:hover{
+    color: #1d1d1f;
+    cursor: pointer;
+}
+.logIn input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #8d8c8c;
+    margin-top: 34px;
+}
+.loginButton{
+    width: 150px;
+    height: 40px;
+    background: #1d1d1f;
+    color: white;
+    font-family: LatoLRegular;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 35px;
+    float: left;
+}
+.loginButton:hover{
+    background: #d8d8d8;
+    color: #1d1d1f;
+    cursor: pointer;
+}
+.footLogin{
+    height: 80px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #f8f8fa;
+    line-height: 80px;
+    font-family: MinionPro;
+    font-size: 16px;
+}
+.footLogin:hover{
+    cursor: pointer;
+    background: #b3b2b2;
+}
+.forgot{
+    font-family: VollkornRegular;
+    color: #767678;
+    margin-left: 34px;
+    line-height: 106px;
+    font-size: 14px;
+}
+.forgot:hover{
+    color: #1d1d1f;
+    cursor: pointer;
+}
+.socButton{
+    margin-top: 10px;
+    background: #1d1d1f;
+    height: 62px;
+    width: 271px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 17px;
+}
+.socButton:hover{
+    cursor: pointer;
+    background: #767678;
+}
+.socButton img{
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 42px;
+}
+.regbut{
+    margin-bottom: 35px;
+}
+/*-----------------------------------Log in^^^^^^^^^^^^-----------------------------------------------------*/
 
 /*------------------------------------------------------------------------------*/
 a{
@@ -99,6 +202,10 @@ section {
 }
 section:nth-child(2), section:nth-child(5), section:nth-child(8){
     margin: 0 50px 0 50px;
+}
+.closeLogin{
+    margin-top: 10px;
+    margin-right: 10px;
 }
 .active{
     color: #767678;
@@ -168,6 +275,9 @@ section:nth-child(2), section:nth-child(5), section:nth-child(8){
     width: 39px;
     margin-top: 20px;
 }
+.author:hover{
+    cursor: pointer;
+}
 .author img{
     float: left;
     margin: 20px 8px 0 2px;
@@ -176,10 +286,14 @@ section:nth-child(2), section:nth-child(5), section:nth-child(8){
     margin-top: 19px;
     float: left;
     font-style: italic;
-    font-size: 14px;
+    font-size: 13px;
     color: #818183;
     word-spacing: -2px;
     letter-spacing: -0.5px;
+}
+.author p > span{
+    color: #1d1d1f;
+    margin-left: 3px;
 }
 /*______________________________________header________________________________*/
 .logo{
