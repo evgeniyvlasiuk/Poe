@@ -1,0 +1,122 @@
+.Settings > .messageBlock{
+    padding: 119px 0 77px 98px;
+    margin-bottom: 40px;
+}
+.nameRegItem {
+    font-family: MinionPro;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.notification{
+    margin-bottom: 73px;
+}
+.regInfo input {
+    border: none;
+    border-bottom: 1px solid #1d1d1f;
+    border-radius: 0;
+    background: #ffffff !important;
+    outline: none;
+    margin: 3px 90px 66px 0;
+    width: 253px;
+    font-size: 13px;
+    line-height: 21px;
+}
+.checkIn {
+    float: left;
+    margin: 24px 0 0 0px;
+    width: 347px;
+    font-size: 13px;
+}
+.checkbox-custom {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-custom, .checkbox-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: url("../img/checkbox.png");
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: url("../img/сchecked.png");
+}
+.checkbox-custom:focus + .checkbox-custom-label {
+    outline: none; /* focus style */
+}
+.socialNetWorks figure{
+    float: left;
+    height: 39px;
+    width: 200px;
+    margin-top: 27px;
+    margin-right: 50px;
+    margin-left: 0;
+    background: #b3b3b3;
+    cursor: pointer;
+}
+.socialNetWorks figure:hover{
+    background: #1d1d1f;
+}
+.socialNetWorks figcaption{
+    color: #FFFFFF;
+    font-family: LatoLRegular;
+    font-size: 13px;
+    border-left: 1px solid #FFFFFF;
+    float: right;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    width: 160px;
+
+}
+.socialNetWorks img {
+    vertical-align: middle;
+    margin-left: 10px;
+    float: left;
+    margin-top: 9px;}
+.socialNetWorks > .selectSoc{
+    background: #1d1d1f;
+}
+.socialNetWorks > .selectSoc:hover{
+    background: #b3b3b3;
+}
+.footBlockSettings {
+    margin-top: 0;
+    margin-left: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

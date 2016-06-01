@@ -8,6 +8,7 @@
     <link rel="stylesheet"  href="css/all.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="modal.js"></script>
+    <script src="login.js"></script>
 </head>
 <body>
 <div class="container">
@@ -18,7 +19,7 @@
             <div class="navItem">My Poems</div>
             <div class="navItem" onclick="location.href='collections.html'";>Collections</div>
             <img src="img/find.png" alt="IMG">
-            <div class="navItem">Find</div>
+            <div class="navItem openModal">Find</div>
         </div>
         <div class="user" >
             <a href="addpoem.html"><span>+ Add Poem</span></a>
@@ -538,10 +539,30 @@
         </div>
     </div>
 </div>
+<div id="overlay"></div>
 <div id="search">
     <input id="serchValue" type="text" placeholder="search">
     <img id="modal_close" src="img/find.png">
 </div>
-<div id="overlay"></div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

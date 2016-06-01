@@ -34,6 +34,8 @@ body{
     opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
     z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
 }
+
+
 #search input{
     margin-left: 20px;
     border: none;
@@ -55,19 +57,21 @@ body{
 
 /* Пoдлoжкa */
 #overlay {
-    z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
-    position:fixed; /* всегдa перекрывaет весь сaйт */
-    background-color:#000; /* чернaя */
-    opacity:0.8; /* нo немнoгo прoзрaчнa */
-    -moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+    z-index:3;
+    position:fixed;
+    background-color:#000;
+    opacity:0.8;
+    -moz-opacity:0.8;
     filter:alpha(opacity=80);
     width:100%;
-    height:100%; /* рaзмерoм вo весь экрaн */
-    top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+    height:100%;
+    top:0;
     left:0;
     cursor:pointer;
-    display:none; /* в oбычнoм сoстoянии её нет) */
+    display:none;
 }
+
+
 /*------------------------------------------------------------------------------*/
 a{
     outline: none;
@@ -740,6 +744,69 @@ section:nth-child(2), section:nth-child(5), section:nth-child(8){
 }
 .footerCol section, .footerCol section:first-child{
     padding-top: 0;
+}
+#createModal{
+    width: 700px;
+    height: 614px;
+    background: #fff;
+    position: absolute;
+    padding: 100px;
+    top: 10%;
+    left: 24%;/* пoлoвинa экрaнa слевa */
+    display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+    opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+    z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+}
+#createModal span{
+    font-family: MinionPro;
+    font-size: 34px;
+}
+#createModal > .bigButton{
+    width: 100%;
+    height: 170px;
+    line-height: 170px;
+    font-family: LatoLRegular;
+    background: #eeeef0;
+    text-align: center;
+    margin-bottom: 36px;
+}
+#createModal > .bigButton:hover{
+    background: #8d8c8c;
+    cursor: pointer;
+}
+
+#createModal > .modalButton{
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1d1d1f;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: LatoLRegular;
+}
+#createModal > .modalButton:hover{
+    background: #d8d8d8;
+    color: #1d1d1f;
+    cursor: pointer;
+}
+#createModal input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #8d8c8c;
+    line-height: 38px;
+    font-size: 21px;
+    margin-top: 28px;
+    margin-bottom: 48px;
+    font-family: LatoLight;
+}
+.closeModal{
+    background: url("../img/w128h128139396832524.png");
+    height: 16px;
+    width: 16px;
+    position: relative;
+    float: right;
+    cursor: pointer;
 }
 /*----------------------------------------------------------------------------*/
 /*-----------------------------------innercollections-------------------------*/

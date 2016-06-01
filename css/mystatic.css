@@ -1,0 +1,99 @@
+.graph{
+    margin-left: 28px;
+}
+.statisticNav{
+    margin-top: 55px;
+    float: left;
+    margin-bottom: 45px;
+}
+.statisticNav img{
+    float: left;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.statisticNav > .activeStatisticNav{
+    color: #1d1d1f;
+    border-bottom: 2px solid #1d1d1f;
+}
+.statisticNav figcaption{
+    float: left;
+    margin-right: 37px;
+    color: #767678;
+    cursor: pointer;
+}
+.statisticNav figcaption:hover{
+    color: #1d1d1f;
+    border-bottom: 2px solid #1d1d1f;
+}
+.period{
+    float: right;
+    margin-right: 59px;
+    margin-top: 54px;
+}
+.period figcaption{
+    float: left;
+    color: #1d1d1f;
+    font-family: LatoLight;
+}
+.period figcaption:hover{
+    color: #767678;
+    cursor: pointer;
+}
+.period img{
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.afterGraphNav{
+    width: 256px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 25px;
+}
+.afterGraphNav > .statisticNav figcaption{
+    margin-right: 59px;
+}
+.afterGraphNav > .statisticNav figcaption:last-child{
+    margin-right: 0;
+}
+.sum{
+    width: 813px;
+    margin: 13px auto 10px auto;
+}
+.sum span{
+    font-family: LatoLRegular;
+    text-align: center;
+    float: left;
+    font-size: 42px;
+    margin-right: 97px;
+    width: 200px;
+}
+.sum span:last-child{
+    margin-right: 0;
+}
+.sum span > p{
+    font-family: LatoLight;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.statisticBlock{
+    padding: 100px 0 80px 3px;
+    margin-bottom: 83px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

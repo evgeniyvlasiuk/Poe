@@ -6,6 +6,8 @@
     <link rel="stylesheet"  href="css/grid.css">
     <link rel="stylesheet"  href="css/main.css">
     <link rel="stylesheet"  href="css/all.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="modal1.js"></script>
 </head>
 <body>
 <div class="container">
@@ -16,7 +18,7 @@
             <div class="navItem">My Poems</div>
             <div class="navItem active" onclick="location.href='collections.html'";>Collections</div>
             <img src="img/find.png" alt="IMG">
-            <div class="navItem">Find</div>
+            <div class="navItem openModal">Find</div>
         </div>
         <div class="user" >
             <span>+ Add Poem</span>
@@ -34,7 +36,7 @@
         </span>
         <div class="inBlock">
             <section>
-                <div class="imgCreate"></div>
+                <div class="imgCreate openModal"></div>
                 <div class="inBlockName">Create new collection</div>
             </section>
             <section>
@@ -204,5 +206,13 @@
         </div>
     </div>
 </div>
+<div id="createModal">
+    <div class="closeModal"></div>
+    <div><span>Create Collection</span></div>
+    <input type="text" placeholder="Name of the collection">
+    <div class="bigButton">Add image of the collection</div>
+    <div class="modalButton">Create Collection</div>
+</div>
+<div id="overlay"></div>
 </body>
 </html>
